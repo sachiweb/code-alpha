@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!--Heading part starts-->
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Code Alpha</title>
+     <!--css file linked-->
+     <link rel="stylesheet" href="background.css">
+ </head>
+ <!--Heading part starts-->
+
+ <!--Body part starts-->
+ <body id="gradient">
+        <h1>
+         Code alpha Background Generator <!--first heading text-->
+        </h1>
+        <input oninput="setGradient()"
+               class="color1" 
+               type="color" 
+               name="color1" 
+               value="#00ff00"> <!--using function calling with oninput value-->
+        <input oninput="setGradient()" 
+               class="color2" 
+               type="color" 
+               name="color2" 
+               value="#ff0000"> 
+        <h2>
+            Current Background <!--second heading text-->
+        </h2>
+        <h3></h3>
+        <!--javascript file attached through script tag-->
+        <script src="background.js"></script>
+ </body>
+</html>
